@@ -5,9 +5,9 @@ using UnityEngine;
 public class carcontroller : MonoBehaviour
 {
     public bool move = false;
-    private bool isgrounded = false;
+    public bool isgrounded = false;
     public Rigidbody2D rb;
-    public float speed = 20;
+    public float Accelaration = 20;
     public float rotationspeed = 7;
     public float Speed;
     public TrailRenderer trail;
@@ -24,7 +24,7 @@ public class carcontroller : MonoBehaviour
         {
             if(isgrounded)
             {
-                rb.AddForce(transform.right * speed * Time.fixedDeltaTime * 100f,ForceMode2D.Force);
+                rb.AddForce(transform.right * Accelaration * Time.fixedDeltaTime * 100f,ForceMode2D.Force);
             }
             else
             {
@@ -35,7 +35,11 @@ public class carcontroller : MonoBehaviour
         if (Speed >= 2)
         {
             trail.emitting = true;
-        }else trail.emitting=false; ;
+        }else trail.emitting=false;
+        if(Speed < 1) 
+        {
+            isgrounded = true;
+        }
     }
     private void OnCollisionEnter2D()
     {

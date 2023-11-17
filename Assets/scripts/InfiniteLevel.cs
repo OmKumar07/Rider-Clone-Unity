@@ -21,6 +21,7 @@ public class ChunkManager : MonoBehaviour
             else
                 SpawnTile(Random.Range(0, Tiles.Length));
         }
+        SpawnTile(Random.Range(0, Tiles.Length));
     }
 
 
