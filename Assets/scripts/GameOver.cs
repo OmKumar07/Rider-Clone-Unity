@@ -16,10 +16,10 @@ public class GameOver : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        //if(rider.position.y <= -10)
-        //{
-         //   dead = true;
-        //}
+        if(rider.position.y <= -10)
+        {
+          dead = true;
+        }
         if (dead)
         {
             effect.gameObject.SetActive(true);
