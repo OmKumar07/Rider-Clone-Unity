@@ -36,10 +36,11 @@ public class carcontroller : MonoBehaviour
         {
             trail.emitting = true;
         }else trail.emitting=false;
-        if(Speed < 1) 
+        if(Speed < 1)
         {
             isgrounded = true;
         }
+
     }
     private void OnCollisionEnter2D()
     {
@@ -48,5 +49,12 @@ public class carcontroller : MonoBehaviour
     private void OnCollisionExit2D()
     {
         isgrounded = false; ;
+    }
+    private IEnumerator ground()
+    {
+        yield return new WaitForSeconds(1);
+        isgrounded=true;
+        yield return new WaitForSeconds(0.2f);
+        isgrounded = false;
     }
 }
