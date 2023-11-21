@@ -41,12 +41,12 @@ public class cameracontroller : MonoBehaviour
         {
             transform.position = Vector3.Lerp(transform.position, target.position, smoothing) + offset;
         }
-        if (target.position.y > 25 && controller.Speed > 5)
+        if (target.position.y > 15 && controller.Speed > 5)
         {
             fov += 5 * Time.deltaTime;
             cam.orthographicSize = fov;
         }
-        if (target.position.y < 25 || controller.Speed < 5)
+        if (target.position.y < 15 || controller.Speed < 5)
         {
             fov -= 5 * Time.deltaTime;
             cam.orthographicSize = fov;
