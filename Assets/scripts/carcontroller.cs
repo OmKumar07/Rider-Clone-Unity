@@ -37,6 +37,7 @@ public class carcontroller : MonoBehaviour
             trail.emitting = true;
         }else trail.emitting=false;
         if(transform.position.y<=1) { isgrounded = true; }
+        if(transform.position.y>=30) { isgrounded = false; }
 
     }
     private void OnCollisionEnter2D()

@@ -24,7 +24,10 @@ public class GameOver : MonoBehaviour
         {
             effect.gameObject.SetActive(true);
             player.enabled = false;
+            if(controller.fov>=5)
+            controller.fov -= 10 * Time.deltaTime;
             controller.follow = false;
+            Vibration.Vibrate(55);
         }
     }
 }

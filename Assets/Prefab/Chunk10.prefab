@@ -2636,6 +2636,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boost
       objectReference: {fileID: 0}
+    - target: {fileID: 7865181136896442532, guid: ee063f0136829634a8bbf6d8020cb1e4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8623318183130713943, guid: ee063f0136829634a8bbf6d8020cb1e4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 49.44
