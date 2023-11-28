@@ -13,6 +13,7 @@ public class GameOver : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
       dead = true;
+      Vibration.Vibrate(100);
     }
     private void FixedUpdate()
     {
@@ -24,10 +25,9 @@ public class GameOver : MonoBehaviour
         {
             effect.gameObject.SetActive(true);
             player.enabled = false;
-            if(controller.fov>=5)
-            controller.fov -= 10 * Time.deltaTime;
+            if (controller.fov >= 5)
+                controller.fov -= 10 * Time.fixedDeltaTime;
             controller.follow = false;
-            Vibration.Vibrate(55);
         }
     }
 }

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 9033682180085180784}
   - component: {fileID: 3933667615872570609}
   - component: {fileID: 7019301758445318134}
+  - component: {fileID: 5137969160852739699}
   m_Layer: 0
   m_Name: Closed Sprite Shape
   m_TagString: Untagged
@@ -354,6 +355,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 6.091279, y: 14.443039}
   m_EdgeRadius: 0
+--- !u!114 &5137969160852739699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144518140579546817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887079fbfc7686e45a4c03a9edffbfde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  star: 0
 --- !u!1 &705321579069492957
 GameObject:
   m_ObjectHideFlags: 0
@@ -1880,6 +1895,7 @@ GameObject:
   - component: {fileID: 5451438060025896201}
   - component: {fileID: 3890933278071878553}
   - component: {fileID: 8962113987610460839}
+  - component: {fileID: 9085015543869581909}
   m_Layer: 0
   m_Name: Closed Sprite Shape (1)
   m_TagString: Untagged
@@ -2222,6 +2238,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 6.091279, y: 14.443039}
   m_EdgeRadius: 0
+--- !u!114 &9085015543869581909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7241395266583652226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887079fbfc7686e45a4c03a9edffbfde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  star: 0
 --- !u!1 &8610345331711768250
 GameObject:
   m_ObjectHideFlags: 0

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7713410837677772823}
   - component: {fileID: 1760085735188642294}
   - component: {fileID: 3154817590774786724}
+  - component: {fileID: 2371619431958886133}
   - component: {fileID: 3886622488392689870}
   m_Layer: 0
   m_Name: Closed Sprite Shape
@@ -309,6 +310,20 @@ MonoBehaviour:
   m_Creator: {fileID: 0}
   m_Modifiers: []
   m_ColliderSegment: []
+--- !u!114 &2371619431958886133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203119135413141820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887079fbfc7686e45a4c03a9edffbfde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  star: 0
 --- !u!61 &3886622488392689870
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1598,6 +1613,7 @@ GameObject:
   - component: {fileID: 4716219163085768239}
   - component: {fileID: 5112466984452273894}
   - component: {fileID: 8978783131941131629}
+  - component: {fileID: 825488101344534557}
   - component: {fileID: 702280260873027706}
   m_Layer: 0
   m_Name: Closed Sprite Shape (1)
@@ -1896,6 +1912,20 @@ MonoBehaviour:
   m_Creator: {fileID: 0}
   m_Modifiers: []
   m_ColliderSegment: []
+--- !u!114 &825488101344534557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8529049702350621734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887079fbfc7686e45a4c03a9edffbfde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  star: 0
 --- !u!61 &702280260873027706
 BoxCollider2D:
   m_ObjectHideFlags: 0

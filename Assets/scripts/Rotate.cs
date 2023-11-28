@@ -7,11 +7,17 @@ public class Rotate : MonoBehaviour
     private Rigidbody2D rb;
     public int speed;
     private GameOver dead;
+    public bool star = true;
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
-        rb.AddTorque(-speed);
-        dead = FindObjectOfType<GameOver>();
+        if (star)
+        {
+            rb = GetComponent<Rigidbody2D>();
+            rb.AddTorque(-speed);
+        }
+            dead = FindObjectOfType<GameOver>();
+        
+
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
