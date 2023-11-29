@@ -6869,11 +6869,11 @@ PrefabInstance:
       objectReference: {fileID: 563159524}
     - target: {fileID: 8082283593789123728, guid: 2b93826e81e50194b8febb0a6aaa51d5, type: 3}
       propertyPath: Accelaration
-      value: 40
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 8082283593789123728, guid: 2b93826e81e50194b8febb0a6aaa51d5, type: 3}
       propertyPath: rotationspeed
-      value: 6
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8082283593789123728, guid: 2b93826e81e50194b8febb0a6aaa51d5, type: 3}
       propertyPath: multiplyertext

@@ -46,8 +46,7 @@ public class carcontroller : MonoBehaviour
         if (transform.position.y <= 1 && transform.rotation.z<20) { isgrounded = true; }
         if (transform.position.y >= 30) { isgrounded = false; }        
     }
-    
-    private void LateUpdate()
+    private void FixedUpdate()
     {
         if (move == true)
         {
@@ -61,6 +60,10 @@ public class carcontroller : MonoBehaviour
             }
 
         }
+    }
+    private void LateUpdate()
+    {
+       
         if (Speed >= 2)
         {
             trail.emitting = true;
