@@ -94,7 +94,11 @@ public class carcontroller : MonoBehaviour
             scoremultiplyer += 1;
             slider.value = 0;
             slider.maxValue = maxslidervalue;
-            audioSource.Play();
+            if(PlayerPrefs.GetInt("Muted") == 0)
+            {
+                audioSource.Play();
+            }
+            
         }
         slider.value = Spin;
         multiplyertext.text = scoremultiplyer.ToString("0");

@@ -8,6 +8,7 @@ public class Rotate : MonoBehaviour
     public int speed;
     private GameOver dead;
     public bool star = true;
+    public bool die = false;
     void Start()
     {
         if (star)
@@ -23,7 +24,16 @@ public class Rotate : MonoBehaviour
     {
         if(collision.transform.tag == "Player")
         {
-            dead.dead = true; 
+            if (!die)
+            {
+                die = true;
+                dead.dead = true;
+                if (PlayerPrefs.GetInt("Muted") == 0)
+                {
+                    dead.deadthSound.Play();
+                }
+                Vibration.Vibrate(80);
+            } 
         }
         
     }

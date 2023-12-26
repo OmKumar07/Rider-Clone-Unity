@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,19 +8,30 @@ public class GameOver : MonoBehaviour
     public Transform effect;
     public SpriteRenderer player;
     public cameracontroller controller;
-    [HideInInspector]
     public bool dead = false;
     public Transform rider;
+    public AudioSource deadthSound;
     private void OnCollisionEnter2D(Collision2D collision)
     {
-      dead = true;
-      Vibration.Vibrate(100);
+        die();
+    }
+    private void die()
+    {
+        if (!dead)
+        {
+            dead = true;
+            if(PlayerPrefs.GetInt("Muted") == 0)
+            {
+                deadthSound.Play();
+            }
+            Vibration.Vibrate(80);
+        }
     }
     private void FixedUpdate()
     {
-        if(rider.position.y <= -10)
+        if (rider.position.y <= -10)
         {
-          dead = true;
+            die() ;
         }
         if (dead)
         {
