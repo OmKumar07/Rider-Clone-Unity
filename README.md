@@ -4,7 +4,7 @@
 **Rev Riders** is an adrenaline-pumping mobile game taking inspiration from classic motorcycle arcade experiences. Gear up for a wild ride where gravity takes a backseat and high-flying stunts rule the road!
 
 ## Screenshots
-![image](https://github.com/OmKumar07/Rider-Clone-Unity/blob/main/Screenshots/Screenshot1.png?raw=true)
+![image](https://github.com/OmKumar07/Rider-Clone-Unity/blob/main/Screenshots/1.jpg?raw=true)
 
 [Insert screenshots or GIFs here]
 
