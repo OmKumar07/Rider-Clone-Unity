@@ -1,5 +1,5 @@
-# Rider-Clone-Unity
-# Buckle Up for Endless Thrills: Welcome to Rev Riders!
+# Rider-Clone-Unity 
+##Buckle Up for Endless Thrills
 
 **Rev Riders** is an adrenaline-pumping mobile game taking inspiration from classic motorcycle arcade experiences. Gear up for a wild ride where gravity takes a backseat and high-flying stunts rule the road!
 
