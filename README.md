@@ -4,6 +4,7 @@
 **Rev Riders** is an adrenaline-pumping mobile game taking inspiration from classic motorcycle arcade experiences. Gear up for a wild ride where gravity takes a backseat and high-flying stunts rule the road!
 
 ## Screenshots
+![image](https://github.com/OmKumar07/Rider-Clone-Unity/blob/main/Screenshots/Screenshot1.png?raw=true)
 
 [Insert screenshots or GIFs here]
 
@@ -22,10 +23,11 @@ Rider takes inspiration from iconic biker games, but we're revving it up with un
 
 ## Installation
 
-1. Download the latest release from the "Releases" tab.
+1. [Download](https://github.com/OmKumar07/Rider-Clone-Unity/releases/tag/FinalRelease) the latest release from the [Releases](https://github.com/OmKumar07/Rider-Clone-Unity/releases/tag/FinalRelease) tab.
 2. install the apk.
 3. Tap the "Rider" app to start the game.
 
 ## Controls
-1.While On Ground Tap To Go Forward
-2.While in Air Tap To Rotate
+
+1. While On Ground Tap To Go Forward.
+2. While in Air Tap To Rotate.
